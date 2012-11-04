@@ -45,6 +45,10 @@ module Ckeditor
   # Turn on/off filename parameterize
   mattr_accessor :parameterize_filenames
   @@parameterize_filenames = true
+
+  # Add extra plugins
+  mattr_accessor :extra_plugins
+  @@extra_plugins = [ 'embed', 'attachment' ]
   
   # Default way to setup Ckeditor. Run rails generate ckeditor to create
   # a fresh initializer with all configuration values.

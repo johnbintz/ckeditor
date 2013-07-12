@@ -20,7 +20,6 @@ class Ckeditor::ApplicationController < ::ApplicationController
         
         render :text => body
       else
-        p asset.errors
         render :nothing => true
       end
     end

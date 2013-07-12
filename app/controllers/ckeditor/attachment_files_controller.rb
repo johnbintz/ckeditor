@@ -7,8 +7,6 @@ class Ckeditor::AttachmentFilesController < Ckeditor::ApplicationController
   
   def create
     @attachment = Ckeditor::AttachmentFile.new
-    p @attachment
-
 	  respond_with_asset(@attachment)
   end
   

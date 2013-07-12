@@ -16,7 +16,6 @@ Ckeditor.setup do |config|
 
     # Add additional plugins
     # config.extra_plugins << "onchange"
-  end
 
   # Setup authorization to be run as a before filter
   # config.authorize_with :cancan

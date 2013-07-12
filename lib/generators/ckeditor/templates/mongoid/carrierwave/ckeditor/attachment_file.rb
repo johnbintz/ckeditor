@@ -4,4 +4,8 @@ class Ckeditor::AttachmentFile < Ckeditor::Asset
   def url_thumb
     @url_thumb ||= Ckeditor::Utils.filethumb(filename)
   end
+
+  def filename
+    data_file_name
+  end
 end
